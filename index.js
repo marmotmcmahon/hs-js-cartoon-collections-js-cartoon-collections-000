@@ -1,5 +1,9 @@
 function dwarfRollCall(dwarves) {
-
+  var str = "";
+  dwarves.forEach(function(e){
+    str = str + e + ", "
+  });
+  return str;
 }
 
 var hi = "hi";
